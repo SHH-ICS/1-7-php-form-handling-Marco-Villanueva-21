@@ -10,11 +10,11 @@
   <body>
     
     <?php
-    $userName = "";
-    if ( isset( $_POST['userName'] ) ){
-      $userName = $_POST['userName'];
+    $name = "";
+    if ( isset( $_POST['name'] ) ){
+      $name = $_POST['name'];
     }
-    echo "<h1>Welcome ".$userName."!</h1>\n";
+    echo "<h1>Welcome ".$name."!</h1>\n";
     ?>
     
   </body>
